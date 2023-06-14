@@ -15,13 +15,15 @@ function loadpuuid(){
         puid = data["puuid"];
         summonerid = data["id"];
         $("#top3").text("前三隻專精:");
-        $("#search").text(inputname);
+        $("#search").text("");
+        $("#res").text(inputname)
         mastery();
         rift_id();
     })
     .fail(function(){
         console.log("fail");
-        $("#search").text("輸入錯誤ID")
+        $("#search").text("");
+        $("#res").text("輸入錯誤ID")
     })
 }
 function mastery(){
