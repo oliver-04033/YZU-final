@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr, td {
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+tr {
+    background-color: #f2f2f2;
+}
+.tan td{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.each{
+    margin-right: 50px;
+}
+/*.onerow {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.picch{
+    display: inline-block;
+    margin-right:50px;
+}*/
+  

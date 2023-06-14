@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>英雄聯盟稽查工具</h1>
+        <h2 id="search">請輸入要查詢的ID</h2>
+        <input type="text" id = "summonername">
+        <button>送出</button>
+        <h2 id = "top3"></h2>
+        <div class ="show">
+            <div class = "each">
+                <img src = "img/meow.jfif" alt ="" id="picmastery2" class="picch" width=200px, height=150px>
+                <h4 id = "mastery2" class="onerow"></h2>
+            </div>
+            <div class = "each">
+                <img src = "img/meow.jfif" alt ="" id="picmastery1" class="picch" width=200px, height=150px>
+                <h4 id = "mastery1" class="onerow"></h2>
+            </div>
+            <div class = "each">
+                <img src = "img/meow.jfif" alt ="" id="picmastery3" class="picch" width=200px, height=150px>
+                <h4 id = "mastery3" class="onerow"></h2>
+            </div>
+        </div>
+        <!--<img src = "" alt ="請先輸入" id="picmastery2" class="picch" width=200px, height=150px>
+        <img src = "" alt ="請先輸入" id="picmastery1" class="picch" width=200px, height=150px>
+        <img src = "" alt ="請先輸入" id="picmastery3" class="picch" width=200px, height=150px>
+        <br>
+        <h4 id = "mastery2" class="onerow"></h2>
+        <h3 id = "mastery1" class="onerow"></h1>
+        <h5 id = "mastery3" class="onerow"></h3>
+        <br>-->
+        
+        <div id="tableContainer">
+            <table class="tan">
+                <tr>
+                    <td>遊戲角色</td>
+                    <td>玩家戰績</td>
+                    <td>遊戲模式</td>
+                    <td>遊戲結果</td>
+                    <td>遊戲時間</td>
+                </tr>
+            </table>
+        </div>
+        <script src ="//unpkg.com/jquery"></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
