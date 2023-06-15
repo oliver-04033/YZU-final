@@ -1,6 +1,6 @@
 let twurl = "https://tw2.api.riotgames.com";
 let seaurl = "https://sea.api.riotgames.com";
-let key = "RGAPI-cdaa82ce-9f90-41bc-9b64-c588150b307a";
+let key = "RGAPI-68daab93-26bd-4467-9230-93705f129695";
 let puid = "";
 let inputname = "";
 let summonerid = "";
